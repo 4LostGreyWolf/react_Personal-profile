@@ -1,0 +1,61 @@
+.Home .lander {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.Home .lander h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.Home .lander p {
+  color: #999;
+}
+
+.Home .lander div {
+  padding-top: 20px;
+}
+.Home .lander div a:first-child {
+  margin-right: 20px;
+}
+
+.Home .notes h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  overflow: hidden;
+  line-height: 1.5;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Home .notes p {
+  color: #666;
+}
+  .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+  .trigger:hover {
+  color: #1890ff;
+}
+  .logo {
+  height: 64px;
+    min-height: 39px;
+  cursor: pointer;
+  /*background: rgba(255,255,255,.2);*/
+  margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .Home_cen section,.Home_cen{
+    height: 100%;
+  }
+  .ant-layout-sider-children> ul>li,.ant-layout-sider-children > ul>li >div{
+    text-align: left;
+  }

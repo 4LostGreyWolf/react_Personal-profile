@@ -1,0 +1,51 @@
+.user{
+  width: 80%;
+  min-width: 100px;
+  margin: auto;
+text-align: center;
+  padding-top: 50px;
+
+}
+.user_img{
+  border-radius: 50% !important;
+  margin-bottom: 20px;
+}
+.user_ul{
+  list-style: none;
+  //display: flex;
+
+}
+.user_ul li{
+  display: flex;
+  justify-content: right;
+  line-height: 30px;
+}
+.user_ul li>p{
+  margin-right: 10px;
+  min-width: 80px;
+}
+.user_ul li>span{
+  text-align: left;
+}
+.user_pdf{
+  position: absolute;
+  height: 100%;
+  width: 80%;
+  min-width: 1000px;
+  top: 0px;
+  overflow: hidden;
+}
+.user_pdf_title{
+position: absolute;
+  top: 50px;
+  right: 10px;
+  font-size: 26px;
+  background-color: rgba(255,255,255,1);
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px dashed #00aaff;
+}

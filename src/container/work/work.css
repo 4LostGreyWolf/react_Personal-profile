@@ -1,0 +1,26 @@
+.titlk{
+    font-size: 60px;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    fontFamily: '华文彩云';
+    border: none !important;
+}
+.third_neon {
+
+
+    color: #FFFFFF;
+    cursor: pointer;
+    display: table-cell;
+    float: left;
+    font-family: "Princess Sofia";
+    margin-left: 20px;
+    transition: text-shadow 0.5s ease 0s;
+    padding: 13px 25px;
+    text-align: center;
+    text-shadow: 0 0 10px #FFFFFF, 0 0 15px #FFFFFF, 0 0 30px #FFFFFF, 0 0 40px #00FFFF, 0 0 70px #00FFFF, 0 0 80px #00FFFF, 0 0 100px #00FFFF;
+}
+
+.carousel-demo{
+    min-height: 780px!important;
+}
