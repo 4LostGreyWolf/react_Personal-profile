@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "acorn": "^6.1.1",
+    "acorn": "^6.4.1",
     "antd": "^3.16.3",
     "antd-mobile": "^2.2.11",
     "aws-amplify": "^1.1.26",
