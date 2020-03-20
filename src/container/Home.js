@@ -35,10 +35,7 @@ export default class Home extends Component {
             })
         }, 3000)
     }
-
     async componentDidMount() {
-
-
         window.addEventListener('resize', this.handleResize.bind(this))
 
         this.setState({isLoading: false});
